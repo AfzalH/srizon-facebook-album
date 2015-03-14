@@ -1,0 +1,5 @@
+.idea
+cache/jfbalbum/*
+cache/jfbalbumbackup/*
+!cache/jfbalbum/index.html
+!cache/jfbalbumbackup/index.html
