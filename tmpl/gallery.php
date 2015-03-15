@@ -3,6 +3,7 @@
 //SrizonResourceLoader::load_collage_plus();
 //SrizonResourceLoader::load_srizon_custom_css();
 $url = remove_query_arg($aid);
+$url = remove_query_arg($paging_id,$url);
 $blink = $url.'#'.$scroller_id;
 $extraclass = '';
 if($srz_page['showhoverzoom']) $extraclass.=' zoom';
