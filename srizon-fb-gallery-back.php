@@ -42,6 +42,7 @@ function srz_fb_galleries_edit() {
 			'title'              => '',
 			'pageid'             => '',
 			'excludeids'         => '',
+			'include_exclude'    => 'exclude',
 			'updatefeed'         => '600',
 			'image_sorting'      => 'default',
 			'album_sorting'      => 'default',
@@ -54,7 +55,7 @@ function srz_fb_galleries_edit() {
 			'hovercaptiontype'   => '0',
 			'show_image_count'   => '1',
 			'showhoverzoom'      => '1',
-			'maxheight'          => '500',
+			'maxheight'          => '250',
 			'app_id'             => '',
 			'app_secret'         => '',
 		);

@@ -70,6 +70,31 @@ class SrizonFBDB {
 		foreach ($options as $key => $value) {
 			$ret[$key] = $value;
 		}
+
+		$value_arr = array(
+			'title' => '',
+			'albumid' => '',
+			'updatefeed' => '600',
+			'image_sorting' => 'default',
+			'totalimg' => '25',
+			'layout' => 'collage_thumb',
+			'tpltheme' => 'white',
+			'paginatenum' => '18',
+			'targetheight' => '200',
+			'collagepadding' => '2',
+			'collagepartiallast' =>  'false',
+			'hovercaption' =>  '1',
+			'hovercaptiontype' =>  '0',
+			'showhoverzoom' =>  '1',
+			'animationspeed' =>  '500',
+			'maxheight' =>  '500',
+			'app_id' => '',
+			'app_secret' => '',
+		);
+
+		foreach ( $value_arr as $key => $value ) {
+			if(!isset($ret[$key]) ) $ret[$key] = $value ;
+		}
 		return $ret;
 	}
 
@@ -86,6 +111,31 @@ class SrizonFBDB {
 		foreach ($options as $key => $value) {
 			$ret[$key] = $value;
 		}
+
+		$value_arr = array(
+			'include_exclude'    => 'exclude',
+			'excludeids'         => '',
+			'updatefeed'         => '600',
+			'image_sorting'      => 'default',
+			'album_sorting'      => 'default',
+			'liststyle'          => 'slidergridv',
+			'totalimg'           => '25',
+			'paginatenum'        => '18',
+			'collagepadding'     => '2',
+			'collagepartiallast' => '0',
+			'hovercaption'       => '1',
+			'hovercaptiontype'   => '0',
+			'show_image_count'   => '1',
+			'showhoverzoom'      => '1',
+			'maxheight'          => '250',
+			'app_id'             => '',
+			'app_secret'         => '',
+		);
+
+		foreach ( $value_arr as $key => $value ) {
+			if(!isset($ret[$key]) ) $ret[$key] = $value ;
+		}
+
 		return $ret;
 	}
 
