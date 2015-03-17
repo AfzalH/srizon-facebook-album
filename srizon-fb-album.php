@@ -24,6 +24,17 @@ require_once 'srizon-fb-back.php';
 require_once 'srizon-fb-album-back.php';
 require_once 'srizon-fb-gallery-back.php';
 
+register_activation_hook( __FILE__, 'srz_fb_install' );
+register_uninstall_hook( __FILE__, 'srz_fb_uninstall' );
+function srz_fb_install() {
+	SrizonFBDB::CreateDBTables();
+}
+
+function srz_fb_uninstall() {
+	//SrizonFBDB::DeleteDBTables();
+	//delete_option('srzfbcomm');
+}
+
 
 add_shortcode( 'srizonfbalbum', 'srz_fb_album_shortcode' );
 add_shortcode( 'srizonfbgallery', 'srz_fb_gallery_shortcode' );

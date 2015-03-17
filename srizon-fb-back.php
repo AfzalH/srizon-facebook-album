@@ -1,15 +1,5 @@
 <?php
 add_action( 'admin_menu', 'srz_fb_menu' );
-register_activation_hook( __FILE__, 'srz_fb_install' );
-register_uninstall_hook( __FILE__, 'srz_fb_uninstall' );
-function srz_fb_install() {
-	SrizonFBDB::CreateDBTables();
-}
-
-function srz_fb_uninstall() {
-	//SrizonFBDB::DeleteDBTables();
-	//delete_option('srzfbcomm');
-}
 
 function srz_fb_menu() {
 	add_menu_page('FB Album Pro', "FB Album Pro", 'manage_options', 'SrzFb', 'srz_fb_options_page', srz_fb_get_resource_url('images/srzfb-icon.png'));
