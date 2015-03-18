@@ -1,7 +1,7 @@
 <?php
 //SrizonResourceLoader::load_srizon_custom_js();
 //SrizonResourceLoader::load_srizon_custom_css();
-echo <<<EOL
+$data .= <<<EOL
 	<div class="full-size-image-container srz-clearfix">
 		<div class="full-size-single-image" id="{$scroller_id}"></div>
 		<span class="srz-prev"></span>
@@ -9,7 +9,7 @@ echo <<<EOL
 	</div>
 EOL;
 $json_data = json_encode( $srz_images );
-echo <<<EOL
+$data .= <<<EOL
 <script>
 	jQuery('#{$scroller_id}').srzSingleImageSlider({
 		images_json: {$json_data},

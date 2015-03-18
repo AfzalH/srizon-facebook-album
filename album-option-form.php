@@ -89,10 +89,10 @@ SrizonFBUI::BoxHeader( 'box33', "Layout Related", true );
 				>
 				<option value="true" <?php if ( $value_arr['collagepartiallast'] == 'true' ) {
 					echo 'selected="selected"';
-				} ?>>Yes</option>
+				} ?>>No</option>
 				<option value="false" <?php if ( $value_arr['collagepartiallast'] == 'false' ) {
 					echo 'selected="selected"';
-				} ?>>No</option>
+				} ?>>Yes</option>
 			</select>
 
 
