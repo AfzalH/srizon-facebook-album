@@ -22,6 +22,6 @@ xcopy .\srizon-fb-gallery-back.php .\srizon-facebook-album\
 xcopy .\srizon-fb-gallery-front.php .\srizon-facebook-album\
 xcopy .\srizon-fb-ui.php .\srizon-facebook-album\
 
-7za a -tzip srizon-facebook-album.2.1.zip srizon-facebook-album
+7za a -tzip srizon-facebook-album.2.2.zip srizon-facebook-album
 
 rmdir /S /Q .\srizon-facebook-album
