@@ -142,6 +142,17 @@ SrizonFBUI::BoxHeader( 'box33', "Layout Related", true );
 		</td>
 	</tr>
 	<tr>
+		<td><label for="autoslideinterval" class="label">AutoSlide Interval in Seconds (Layout 3/4/5) - 0 for disabling autoslide</label></td>
+		<td>
+			<input id="autoslideinterval" name="options[autoslideinterval]"
+				   type="text"
+				   value="<?php echo $value_arr['autoslideinterval']; ?>"
+				/>
+
+
+		</td>
+	</tr>
+	<tr>
 		<td><label for="maxheight" class="label">Maximum height of the full image (Layout 2/4/5/6/7)</label></td>
 		<td>
 			<input id="maxheight" name="options[maxheight]"

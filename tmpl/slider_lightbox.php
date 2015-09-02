@@ -7,7 +7,7 @@ foreach ( $srz_images as $image ) {
 	$caption = nl2br( $image['txt'] );
 	$data .= <<<IMGLINK
 	<li>
-		<a href="{$image['src']}" title="{$caption}" {$lightbox_attribute}>
+		<a href="{$image['src']}" {$lightbox_attribute}>
 			<img src="{$image['thumb']}" alt="{$caption}" width="{$image['width']}" height="{$image['height']}" />
 		</a>
 	</li>
@@ -23,6 +23,9 @@ $data .= <<<EOL
 		jQuery( '#{$scroller_id}').unwrap().elastislide({
 			speed: {$srz_album['animationspeed']}
 		});
+	});
+	jQuery('#{$scroller_id}').autoscrollElastislide({
+		interval: {$srz_album['autoslideinterval']}
 	});
 </script>
 EOL;

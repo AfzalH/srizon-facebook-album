@@ -53,6 +53,7 @@ function srz_fb_galleries_edit() {
 			'collagepartiallast' => '0',
 			'hovercaption'       => '1',
 			'hovercaptiontype'   => '0',
+			'hovercaptiontypecover'   => '2',
 			'show_image_count'   => '1',
 			'showhoverzoom'      => '1',
 			'maxheight'          => '250',

@@ -632,6 +632,56 @@
     }
 })(jQuery);
 
+jQuery(document).ajaxSuccess(function () {
+    if (jQuery().magnificPopup) {
+        jQuery('.jfbalbum').each(function () {
+            jQuery(this).magnificPopup({
+                delegate: 'a.aimg',
+                type: 'image',
+                gallery: {enabled: true},
+                zoom: {
+                    enabled: true,
+                    duration: 300,
+                    easing: 'ease-in-out',
+                    opener: function (openerElement) {
+                        return openerElement.is('img') ? openerElement : openerElement.find('img');
+                    }
+                }
+            });
+        });
+        jQuery('.jtubegallery').each(function () {
+            jQuery(this).magnificPopup({
+                delegate: '.magpopif',
+                type: 'iframe'
+            });
+        });
+    }
+    jQuery('.jfbalbum').one('mouseenter',function () {
+        jQuery('.Caption_Content').each(function () {
+            jQuery(this).click(function (e) {
+                //if (this !== e.target) return;
+                var eee = jQuery(this).parent().prev();
+                if(eee.data('gallery') == 'gallery'){
+                    window.location = eee.attr('href');
+                }
+                else{
+                    eee.click();
+                }
+            });
+        });
+    });
+    jQuery('a.aimg').click(function () {
+        setTimeout(function () {
+            jQuery('.mfp-figure').on('swipeleft', function () {
+                jQuery('.mfp-arrow-right').click();
+            }).on('swiperight', function () {
+                jQuery('.mfp-arrow-left').click();
+            });
+        }, 100);
+    });
+});
+
+
 jQuery(document).ready(function () {
     if (jQuery().magnificPopup) {
         jQuery('.jfbalbum').each(function () {
@@ -689,10 +739,49 @@ function load_juser_video(scrollerid, videoid) {
     '<table class="juser-vid-table">' +
     '<tr>' +
     '<td>' +
-    '<div class="juser-vid-container"><iframe class="youtube-player" type="text/html" width="960" height="600" src="//www.youtube.com/embed/' + videoid + '?fs=1&rel=0&wmode=transparent' + autotext + '" frameborder="0"></iframe></div>' +
+    '<div class="juser-vid-container"><iframe class="youtube-player" type="text/html" width="960" height="600" src="//www.youtube.com/embed/' + videoid + '?fs=1&rel=0&wmode=transparent' + autotext + '" frameborder="0" allowfullscreen></iframe></div>' +
     '</td>' +
     '</tr>' +
     '</table>' +
     '</div>';
     jQuery(vidloaderbox).html(embedcode);
 }
+
+(function ($) {
+    $.fn.autoscrollElastislide = function (params) {
+        var defaults = {
+            interval: 0,
+            direction: 0
+        };
+        var $this = $(this);
+        var options = $.extend({}, defaults, params);
+        setTimeout(function () {
+            if(options.interval > 0){
+                setInterval(function () {
+                    if(options.direction == 0){
+                        //change direction if the button is hidden
+                        if($this.parent().next().find('.elastislide-next:hidden').length){
+                            options.direction = 1;
+                        }
+                        else{
+                            $this.parent().next().find('.elastislide-next').trigger('mousedown');
+                        }
+                    }
+                    else{
+                        //change direction if the button is hidden
+                        if($this.parent().next().find('.elastislide-prev:hidden').length){
+                            options.direction = 0;
+                        }
+                        else{
+                            $this.parent().next().find('.elastislide-prev').trigger('mousedown');
+                        }
+
+                    }
+
+                },options.interval*1000);
+
+            }
+        },100);
+        return this;
+    }
+})(jQuery);

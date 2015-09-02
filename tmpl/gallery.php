@@ -39,7 +39,7 @@ foreach ($srz_images as $image) {
 	$caption = nl2br($image['txt']);
 	$data .= <<<EOL
 		<div class="Image_Wrapper" data-caption="{$caption}">
-			<a href="{$link}" title="{$caption}" {$grelval}{$dtg}>
+			<a href="{$link}" {$grelval}{$dtg}>
 				<img alt="{$caption}" src="{$image['thumb']}" data-width="{$image['width']}" data-height="{$image['height']}" width="{$image['width']}" height="{$image['height']}" />
 			</a>
 		</div>

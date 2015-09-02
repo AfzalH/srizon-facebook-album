@@ -50,6 +50,7 @@ function srz_fb_albums_edit() {
 			'hovercaptiontype' =>  '0',
 			'showhoverzoom' =>  '1',
 			'animationspeed' =>  '500',
+			'autoslideinterval' =>  '0',
 			'maxheight' =>  '500',
 			'app_id' => '',
 			'app_secret' => '',

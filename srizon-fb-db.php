@@ -89,6 +89,7 @@ class SrizonFBDB {
 			'hovercaptiontype' =>  '0',
 			'showhoverzoom' =>  '1',
 			'animationspeed' =>  '500',
+			'autoslideinterval' =>  '0',
 			'maxheight' =>  '500',
 			'app_id' => '317313518365532',
 			'app_secret' => 'd612fb7cd11ce82400131c1dda0522e8',

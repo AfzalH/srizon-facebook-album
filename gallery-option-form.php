@@ -96,7 +96,7 @@ SrizonFBUI::BoxHeader( 'box33', "Layout Related", true );
 		</td>
 	</tr>
 	<tr>
-		<td><label for="show_image_count" class="label">Show Image Count</label></td>
+		<td><label for="show_image_count" class="label">Show Image Count On Album Cover</label></td>
 		<td>
 			<select id="show_image_count" name="options[show_image_count]"
 

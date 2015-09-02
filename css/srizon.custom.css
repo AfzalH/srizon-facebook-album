@@ -595,6 +595,10 @@ table.juser-vid-table{
     cursor:default;
 }
 
+.Caption_Content{
+    line-height: 1 !important;
+}
+
 @media only screen and (max-width: 767px) {
     div.outerwidthsmall1 {width:100% !important;}
     div.outerwidthsmall2 {width: 50% !important;}
