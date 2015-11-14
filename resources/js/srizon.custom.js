@@ -634,11 +634,14 @@
 
 jQuery(document).ajaxSuccess(function () {
     if (jQuery().magnificPopup) {
-        jQuery('.jfbalbum').each(function () {
+        jQuery('.fbalbum').each(function () {
             jQuery(this).magnificPopup({
                 delegate: 'a.aimg',
                 type: 'image',
                 gallery: {enabled: true},
+                image: {
+                    titleSrc: 'data-title'
+                },
                 zoom: {
                     enabled: true,
                     duration: 300,
@@ -656,7 +659,7 @@ jQuery(document).ajaxSuccess(function () {
             });
         });
     }
-    jQuery('.jfbalbum').one('mouseenter',function () {
+    jQuery('.fbalbum').one('mouseenter',function () {
         jQuery('.Caption_Content').each(function () {
             jQuery(this).click(function (e) {
                 //if (this !== e.target) return;
@@ -684,11 +687,14 @@ jQuery(document).ajaxSuccess(function () {
 
 jQuery(document).ready(function () {
     if (jQuery().magnificPopup) {
-        jQuery('.jfbalbum').each(function () {
+        jQuery('.fbalbum').each(function () {
             jQuery(this).magnificPopup({
                 delegate: 'a.aimg',
                 type: 'image',
                 gallery: {enabled: true},
+                image: {
+                    titleSrc: 'data-title'
+                },
                 zoom: {
                     enabled: true,
                     duration: 300,
@@ -706,7 +712,7 @@ jQuery(document).ready(function () {
             });
         });
     }
-    jQuery('.jfbalbum').one('mouseenter',function () {
+    jQuery('.fbalbum').one('mouseenter',function () {
         jQuery('.Caption_Content').each(function () {
             jQuery(this).click(function (e) {
                 //if (this !== e.target) return;
@@ -733,7 +739,7 @@ jQuery(document).ready(function () {
 
 function load_juser_video(scrollerid, videoid) {
     var vidloaderbox, embedcode, autotext;
-    autotext = 'autoplay=0';
+    autotext = '&autoplay=0';
     vidloaderbox = '#vid' + scrollerid;
     embedcode = '<div>' +
     '<table class="juser-vid-table">' +

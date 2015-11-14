@@ -1,4 +1,4 @@
-.jfbalbum img, .srizon-yt-container img{
+.fbalbum img, .srizon-yt-container img{
     max-width: 100%;
 }
 /* + fullsize image*/
@@ -190,6 +190,7 @@ span.srz-next-card{
     text-align: center;
     overflow: hidden;
     line-height: 50px;
+    unicode-bidi: bidi-override;
 }
 .srizon-pagination li {
     display:inline;
@@ -282,7 +283,7 @@ span.srz-next-card{
 /* - pagination */
 
 /* + animation*/
-.jfbalbum.zoom img{
+.fbalbum.zoom img{
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
     -ms-transition: all 1s;
@@ -290,7 +291,7 @@ span.srz-next-card{
     transition: all 1s;
 }
 
-.jfbalbum.zoom img:hover{
+.fbalbum.zoom img:hover{
     -webkit-transform: scale(1.1, 1.1);
     -moz-transform: scale(1.1, 1.1);
     -ms-transform: scale(1.1, 1.1);

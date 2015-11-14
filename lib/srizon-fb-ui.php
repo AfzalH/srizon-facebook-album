@@ -84,12 +84,13 @@ END2;
 		endif;
 	}
 
-	static function BoxHeader($id, $title, $right = false) {
+	static function BoxHeader($id, $title, $right = false, $classes='') {
 		global $wp_version;
 		if (floatval($wp_version) >= 2.7) {
 			?>
-			<div id="<?php echo $id; ?>" class="postbox">
-			<h3 class="hndle"><span><?php echo $title ?></span></h3>
+			<div id="<?php echo $id; ?>" class="postbox <?php echo $classes;?>">
+			<div class="handlediv" title="Click to toggle"><br></div>
+			<h3 class="hndle2"><span><?php echo $title ?></span></h3>
 			<div class="inside">
 		<?php
 		} else {
