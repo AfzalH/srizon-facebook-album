@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Srizon Facebook Album\n"
 "POT-Creation-Date: 2015-11-12 19:34+0600\n"
-"PO-Revision-Date: 2016-01-05 11:34+0600\n"
+"PO-Revision-Date: 2016-01-06 14:09+0600\n"
 "Last-Translator: Josh Pruitt <josh@appearmarketing.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/srizon/srizon-facebook-album/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -183,31 +183,31 @@ msgstr "Layout"
 
 #: admin/forms/album-option-form.php:192
 msgid "1. Collage - Thumb"
-msgstr ""
+msgstr "1. Colagem - Miniatura"
 
 #: admin/forms/album-option-form.php:196
 msgid "2. Collage - Full"
-msgstr ""
+msgstr "2. Colagem - Inteiro"
 
 #: admin/forms/album-option-form.php:200
 msgid "3. Slider - Lightbox"
-msgstr ""
+msgstr "3. Slider - LIghtbox"
 
 #: admin/forms/album-option-form.php:204
 msgid "4. Slider - Image Above"
-msgstr ""
+msgstr "4. Slider - Imagem Acima"
 
 #: admin/forms/album-option-form.php:208
 msgid "5. Slider - Image Below"
-msgstr ""
+msgstr "5. Slide - Imagem Abaixo"
 
 #: admin/forms/album-option-form.php:212
 msgid "6. Single Image"
-msgstr ""
+msgstr "6. Imagem Única"
 
 #: admin/forms/album-option-form.php:216
 msgid "7. Image Card"
-msgstr ""
+msgstr "7. Cartão Imagem"
 
 #: admin/forms/album-option-form.php:225 admin/forms/gallery-option-form.php:226
 msgid "Target Thumb Height"
@@ -219,7 +219,7 @@ msgstr "Este pode não ser a altura exata mas é próximo a"
 
 #: admin/forms/album-option-form.php:237 admin/forms/gallery-option-form.php:239
 msgid "Collage - Padding"
-msgstr ""
+msgstr "Colagem - Padding"
 
 #: admin/forms/album-option-form.php:244
 msgid "Padding size around each image"
@@ -227,7 +227,7 @@ msgstr "Tamanho do padding ao redor de cada imagem"
 
 #: admin/forms/album-option-form.php:250 admin/forms/gallery-option-form.php:251
 msgid "Collage - Fill Last Row"
-msgstr ""
+msgstr "Colagem - Preencher Última Fileira"
 
 #: admin/forms/album-option-form.php:259 admin/forms/album-option-form.php:285 admin/forms/album-option-form.php:330 admin/forms/common-option-form.php:53 admin/forms/gallery-option-form.php:260 admin/forms/gallery-option-form.php:310
 #: admin/forms/gallery-option-form.php:354 admin/forms/gallery-option-form.php:373
@@ -245,19 +245,19 @@ msgstr "Alongar a imagem da última fileira para ocupar o espaço"
 
 #: admin/forms/album-option-form.php:274
 msgid "Mouse-over Caption"
-msgstr ""
+msgstr "Subtítulo ao pairar o mouse"
 
 #: admin/forms/album-option-form.php:294
 msgid "Caption Behavior"
-msgstr ""
+msgstr "Comportamento do Subtítulo"
 
 #: admin/forms/album-option-form.php:300 admin/forms/gallery-option-form.php:280 admin/forms/gallery-option-form.php:324
 msgid "Show On Hover - Hide On Leave"
-msgstr ""
+msgstr "Abrandar ao Pairar - Ocultar ao Sair"
 
 #: admin/forms/album-option-form.php:304 admin/forms/gallery-option-form.php:284 admin/forms/gallery-option-form.php:328
 msgid "Hide On Hover - Show On Leave"
-msgstr ""
+msgstr "Ocultar ao Pairar - Exibir ao Sair"
 
 #: admin/forms/album-option-form.php:308 admin/forms/gallery-option-form.php:288 admin/forms/gallery-option-form.php:332
 msgid "Always Show"
@@ -265,23 +265,23 @@ msgstr "Sempre Exibir"
 
 #: admin/forms/album-option-form.php:317 admin/forms/gallery-option-form.php:361
 msgid "Animate Thumb on Hover"
-msgstr ""
+msgstr "Animar Miniatura ao Pairar"
 
 #: admin/forms/album-option-form.php:340
 msgid "Animation Time in MilliSecs"
-msgstr ""
+msgstr "Animar Tempo em Milisegs"
 
 #: admin/forms/album-option-form.php:353
 msgid "AutoSlide Interval in Seconds."
-msgstr ""
+msgstr "Intervalo do AutoSlide em segundos."
 
 #: admin/forms/album-option-form.php:361
 msgid "Put 0 for disabling autoSlide"
-msgstr ""
+msgstr "Inserir 0 para desativar autoSlider"
 
 #: admin/forms/album-option-form.php:367
 msgid "Maximum height of the full image"
-msgstr ""
+msgstr "Altura máxima da imagem cheia"
 
 #: admin/forms/album-option-form.php:379 admin/forms/gallery-option-form.php:384
 msgid "Options"
@@ -293,43 +293,43 @@ msgstr "Sincronizar a cada # minutos"
 
 #: admin/forms/album-option-form.php:395
 msgid "Images Sorting"
-msgstr ""
+msgstr "Classificação de Imagens"
 
 #: admin/forms/album-option-form.php:401 admin/forms/gallery-option-form.php:404 admin/forms/gallery-option-form.php:434
 msgid "Default (As given by FB API)"
-msgstr ""
+msgstr "Padrão (Como dado pelo API do FB)"
 
 #: admin/forms/album-option-form.php:405 admin/forms/gallery-option-form.php:407 admin/forms/gallery-option-form.php:437
 msgid "Default Reversed"
-msgstr ""
+msgstr "Padrão Inverso"
 
 #: admin/forms/album-option-form.php:409 admin/forms/gallery-option-form.php:410 admin/forms/gallery-option-form.php:440
 msgid "Modification Time"
-msgstr ""
+msgstr "Hora de Modificação"
 
 #: admin/forms/album-option-form.php:413 admin/forms/gallery-option-form.php:413 admin/forms/gallery-option-form.php:443
 msgid "Modification Time Reversed"
-msgstr ""
+msgstr "Hora Inversa da Modificação"
 
 #: admin/forms/album-option-form.php:417 admin/forms/gallery-option-form.php:416 admin/forms/gallery-option-form.php:446
 msgid "Creation Time"
-msgstr ""
+msgstr "Hora da Criação"
 
 #: admin/forms/album-option-form.php:421 admin/forms/gallery-option-form.php:419 admin/forms/gallery-option-form.php:449
 msgid "Creation Time Reversed"
-msgstr ""
+msgstr "Hora Inversa da Criação"
 
 #: admin/forms/album-option-form.php:425 admin/forms/gallery-option-form.php:422 admin/forms/gallery-option-form.php:452
 msgid "Shuffle on each load"
-msgstr ""
+msgstr "Embaralhar ao Carregar"
 
 #: admin/forms/album-option-form.php:434 admin/forms/gallery-option-form.php:460
 msgid "Total Number of Images"
-msgstr ""
+msgstr "Número Total de Imagens"
 
 #: admin/forms/album-option-form.php:444
 msgid "Paginate After # Thumbs"
-msgstr ""
+msgstr "Paginar Após # Miniaturas"
 
 #: admin/forms/album-option-form.php:460
 msgid "Save Album"
@@ -341,39 +341,39 @@ msgstr "Opções Comuns"
 
 #: admin/forms/common-option-form.php:23
 msgid "Lightbox Selection:"
-msgstr ""
+msgstr "Seleção do Lightbox:"
 
 #: admin/forms/common-option-form.php:29
 msgid "Built in Responsive Lightbox"
-msgstr ""
+msgstr "Lightbox Responsivo Inbutido"
 
 #: admin/forms/common-option-form.php:33
 msgid "Other Lightbox"
-msgstr ""
+msgstr "Outro Lightbox"
 
 #: admin/forms/common-option-form.php:38
 msgid "Lightbox Link Attribute"
-msgstr ""
+msgstr "Atributo do Link do Lightbox"
 
 #: admin/forms/common-option-form.php:44
 msgid "(Might be required for Other Lightbox)"
-msgstr ""
+msgstr "(Pode ser exigido por outro lightbox)"
 
 #: admin/forms/common-option-form.php:48
 msgid "Scroll to target"
-msgstr ""
+msgstr "Rolar para direcionar"
 
 #: admin/forms/common-option-form.php:57
 msgid "Scroll to album area when an album/pagination link is clicked?"
-msgstr ""
+msgstr "Rolar a área do álbum quando o link do álbum/paginação for clicado?"
 
 #: admin/forms/common-option-form.php:63
 msgid "Default App ID - App Secret - User Token"
-msgstr ""
+msgstr "ID padrão do App - Segredo do App - Token de Usuário"
 
 #: admin/forms/common-option-form.php:65
 msgid "You can also fetch a User Token which is needed for fetching personal albums/gallery"
-msgstr ""
+msgstr "Você pode também buscar um Token de Usuário que é necessário para buscar álbuns/galerias pessoais"
 
 #: admin/forms/common-option-form.php:77
 msgid "Put the default App ID."
@@ -389,15 +389,15 @@ msgstr "Salvar Opções"
 
 #: admin/forms/common-option-form.php:131
 msgid "How to setup other lightbox: (An example showing setup instructions for FancyBox)"
-msgstr ""
+msgstr "Como configurar outro lightbox: (Um exemplo exibindo instruções de configuração para o FancyBox)"
 
 #: admin/forms/common-option-form.php:137
 msgid "Select \"Other Lightbox\" above"
-msgstr ""
+msgstr "Selecione \"Outro Lightbox\" acima"
 
 #: admin/forms/common-option-form.php:138
 msgid "Put rel=\"something\" on the next field (should be already there by default) and save"
-msgstr ""
+msgstr "Insira rel=\"alguma coisa\" no campo do texto (já deverá estar lá) e clique em salvar"
 
 #: admin/forms/common-option-form.php:139
 msgid "Install"
@@ -409,27 +409,27 @@ msgstr "para Wordpress"
 
 #: admin/forms/common-option-form.php:142
 msgid "After installation and activation of FancyBox plugin go to it's settings panel"
-msgstr ""
+msgstr "Após instalação e ativação do plugin FancyBox vá para seu painel de configuração "
 
 #: admin/forms/common-option-form.php:143
 msgid "Select \"Extra Calls\" Tab"
-msgstr ""
+msgstr "Selecione a aba de \"Chamadas Extras\""
 
 #: admin/forms/common-option-form.php:144
 msgid "Check (activate) \"Additional FancyBox Calls\""
-msgstr ""
+msgstr "Verifique (ativar) \"Chamadas Adicionais do FancyBox\""
 
 #: admin/forms/common-option-form.php:145
 msgid "A textbox will expand. Put the following code there"
-msgstr ""
+msgstr "Uma caixa de texto irá abrir. Coloque o código seguinte lá"
 
 #: admin/forms/common-option-form.php:155
 msgid "Save Changes and reload the album on frontend"
-msgstr ""
+msgstr "Salvar mudanças e recarrega o álbum no front-end "
 
 #: admin/forms/common-option-form.php:156
 msgid "Now you should see the images of this plugin loading in fancybox"
-msgstr ""
+msgstr "Agora você deverá ver imagens deste plugin carregando no fancybox"
 
 #: admin/forms/gallery-option-form.php:2
 msgid "Gallery Title"
@@ -457,171 +457,171 @@ msgstr "que deverá ser colocada neste campo."
 
 #: admin/forms/gallery-option-form.php:164
 msgid "then the ID is the"
-msgstr ""
+msgstr "então o ID é o"
 
 #: admin/forms/gallery-option-form.php:174
 msgid "Include or Exclude Albums"
-msgstr ""
+msgstr "Incluir ou Excluir Álbuns"
 
 #: admin/forms/gallery-option-form.php:180
 msgid "Album IDs"
-msgstr ""
+msgstr "IDs do Álbum"
 
 #: admin/forms/gallery-option-form.php:181
 msgid "For Excluding/Including"
-msgstr ""
+msgstr "Para Excluir/Incluir"
 
 #: admin/forms/gallery-option-form.php:198
 msgid "Separate multiple IDs with newline or whitespace"
-msgstr ""
+msgstr "Separe IDs multiples com uma nova linha ou espaço em branco"
 
 #: admin/forms/gallery-option-form.php:203
 msgid "What to do with these?"
-msgstr ""
+msgstr "O que fazer com estes?"
 
 #: admin/forms/gallery-option-form.php:209
 msgid "Exclude These Albums"
-msgstr ""
+msgstr "Excluir Estes Álbuns"
 
 #: admin/forms/gallery-option-form.php:213
 msgid "Show Only These Albums"
-msgstr ""
+msgstr "Exibir Apenas Estes Álbuns"
 
 #: admin/forms/gallery-option-form.php:234
 msgid "This may not be the exact height but closer to this."
-msgstr ""
+msgstr "Este pode não ser a altura exata mas é aproximada."
 
 #: admin/forms/gallery-option-form.php:273
 msgid "Caption Behavior (Cover Photos)"
-msgstr ""
+msgstr "Comprotabment do Subtítulo (Cobrir Fotos)"
 
 #: admin/forms/gallery-option-form.php:297
 msgid "Mouse Over Caption (Album Photos)"
-msgstr ""
+msgstr "Subtítulo ao Pairar o Mouse (Álbum de Fotos)"
 
 #: admin/forms/gallery-option-form.php:317
 msgid "Caption Behavior (Album Photos)"
-msgstr ""
+msgstr "Comportamento do Subtítulo (Álbum de Fotos)"
 
 #: admin/forms/gallery-option-form.php:341
 msgid "Show Image Count On Album Cover"
-msgstr ""
+msgstr "Exibir Número de Imagens na Capa do Álbum"
 
 #: admin/forms/gallery-option-form.php:399
 msgid "Album (Cover) Sorting"
-msgstr ""
+msgstr "Classificação do (Capa) Álbum"
 
 #: admin/forms/gallery-option-form.php:429
 msgid "Images Sorting (Inside each Album)"
-msgstr ""
+msgstr "Classificação das Imagens (Dentro de cada Álbum)"
 
 #: admin/forms/gallery-option-form.php:469
 msgid "Paginate After # Images"
-msgstr ""
+msgstr "Paginar Após # Imagens"
 
 #: admin/forms/gallery-option-form.php:486
 msgid "Save Gallery"
-msgstr ""
+msgstr "Salvar Galeria"
 
 #: admin/srizon-fb-album-back.php:28 admin/srizon-fb-gallery-back.php:28
 msgid "Add New"
-msgstr ""
+msgstr "Adicionar NOvo"
 
 #: admin/srizon-fb-album-back.php:39
 msgid "Edit Album"
-msgstr ""
+msgstr "Editar Álbum"
 
 #: admin/srizon-fb-album-back.php:42
 msgid "Add New Album"
-msgstr ""
+msgstr "Adicionar Álbum Novo"
 
 #: admin/srizon-fb-album-back.php:70
 msgid "About Single Album"
-msgstr ""
+msgstr "Sobre Álbum Único"
 
 #: admin/srizon-fb-album-back.php:71
 msgid "It creates a single album using one or more Facebook album IDs."
-msgstr ""
+msgstr "Este criará um álbum único usando um ou mais IDs de álbuns do Facebook."
 
 #: admin/srizon-fb-album-back.php:72
 msgid "If multiple IDs are used, they will be merged into a single album."
-msgstr ""
+msgstr "Se IDs múltiplos forem usados, eles serão unidos em um álbum único."
 
 #: admin/srizon-fb-album-back.php:88
 msgid "New Album Created! Now copy the shortcode and use it in your post/page"
-msgstr ""
+msgstr "Novo Álbum Criado! Agora copie o shortcode e use no seu post/página"
 
 #: admin/srizon-fb-album-back.php:91
 msgid "Album Saved!"
-msgstr ""
+msgstr "Álbum Salvo!"
 
 #: admin/srizon-fb-album-back.php:99
 msgid "Album Deleted!"
-msgstr ""
+msgstr "Álbum Excluido!"
 
 #: admin/srizon-fb-album-back.php:106
 msgid "Cached data deleted for this album! It will be synced on the next load!"
-msgstr ""
+msgstr "Dados do cache foram excluídos para este álbum! Ela será sincronizado no próximo carregamento!"
 
 #: admin/srizon-fb-common-back.php:5
 msgid "FB Album Pro"
-msgstr ""
+msgstr "FB Álbum Pro"
 
 #: admin/srizon-fb-common-back.php:6 admin/srizon-fb-common-back.php:35
 msgid "Albums"
-msgstr ""
+msgstr "Álbuns"
 
 #: admin/srizon-fb-common-back.php:7 admin/srizon-fb-common-back.php:35 admin/srizon-fb-gallery-back.php:28
 msgid "Galleries"
-msgstr ""
+msgstr "Galerias"
 
 #: admin/srizon-fb-common-back.php:30
 msgid "Srizon FB Album Option Page"
-msgstr ""
+msgstr "Página de Opções Srizon FB Album"
 
 #: admin/srizon-fb-common-back.php:33
 msgid "About This Plugin"
-msgstr ""
+msgstr "Sobre Este Plugin"
 
 #: admin/srizon-fb-common-back.php:34
 msgid "This Plugin will show your Facebook album(s) into your WordPress site."
-msgstr ""
+msgstr "Este plugin irá exibir seus álbum(s) do Facebook no seu site de Wordpress."
 
 #: admin/srizon-fb-common-back.php:35
 msgid "Select"
-msgstr ""
+msgstr "Selecione"
 
 #: admin/srizon-fb-common-back.php:35
 msgid "or"
-msgstr ""
+msgstr "ou"
 
 #: admin/srizon-fb-common-back.php:35
 msgid "from sub-menu and add a new album or gallery"
-msgstr ""
+msgstr "do sub-menu e adicione um novo álbum ou galeria"
 
 #: admin/srizon-fb-common-back.php:36
 msgid "Use the generated shortcode on your post/page to display the album/gallery"
-msgstr ""
+msgstr "Use o shortcode gerado no seu post/página para exibir o álbum/galeria"
 
 #: admin/srizon-fb-common-back.php:38
 msgid "What to do:"
-msgstr ""
+msgstr "O que fazer:"
 
 #: admin/srizon-fb-common-back.php:40
 msgid "Setup the options on this page"
-msgstr ""
+msgstr "Configure as opções desta página"
 
 #: admin/srizon-fb-common-back.php:41
 msgid "Click on the Albums or Galleries sub-menu"
-msgstr ""
+msgstr "Clique no sub-menu das Galerias ou Álbuns"
 
 #: admin/srizon-fb-common-back.php:42
 msgid "Click \"Add New\" button to add a new album or gallery. (or click on an existing album title to edit that)"
-msgstr ""
+msgstr "Clique botão \"Adicione Novo\" para adicionar novo álbum ou galeria. (ou clique num título de álbum ou edite aquilo)"
 
 #: admin/srizon-fb-common-back.php:43
 msgid "Fill-up or modify the form and save that"
-msgstr ""
+msgstr "Preencha ou modifique o formulário e salve"
 
 #: admin/srizon-fb-common-back.php:44
 msgid "Your albums or galleries will be listed along with the shortcodes. Use the shortcodes into your page/post to show the photo album or gallery"
@@ -669,7 +669,7 @@ msgstr "Galeria Excluida!"
 
 #: admin/srizon-fb-gallery-back.php:104
 msgid "Cached data deleted for this gallery! It will be synced on the next load!"
-msgstr ""
+msgstr "Dados do cache excluido para esta galeria! Será sincronizado no próximo carregamento!"
 
 #: admin/tables/album-table.php:4 admin/tables/album-table.php:38 admin/tables/gallery-table.php:4 admin/tables/gallery-table.php:37
 msgid "Title"
