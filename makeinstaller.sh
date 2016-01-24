@@ -11,6 +11,6 @@ cp -R ./tmpl ./srizon-facebook-album/
 cp ./readme.txt ./srizon-facebook-album/
 cp ./srizon-fb-album.php ./srizon-facebook-album/
 
-zip -r srizon-facebook-album.3.1.zip srizon-facebook-album
+zip -r srizon-facebook-album.3.1.2.zip srizon-facebook-album
 
 rm -R srizon-facebook-album

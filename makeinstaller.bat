@@ -11,6 +11,6 @@ xcopy .\readme.txt .\srizon-facebook-album\
 xcopy .\srizon-fb-album.php .\srizon-facebook-album\
 
 
-7za a -tzip srizon-facebook-album.3.1.zip srizon-facebook-album
+7za a -tzip srizon-facebook-album.3.1.2.zip srizon-facebook-album
 
 rmdir /S /Q .\srizon-facebook-album
