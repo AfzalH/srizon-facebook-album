@@ -1,9 +1,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: 2015-11-12 19:34+0600\n"
-"PO-Revision-Date: 2015-11-12 17:25+0600\n"
+"Project-Id-Version: srizon-facebook-album\n"
+"POT-Creation-Date: 2016-01-24 12:35+0600\n"
+"PO-Revision-Date: 2016-01-24 12:36+0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -20,294 +20,294 @@ msgstr ""
 msgid "Album Title"
 msgstr ""
 
-#: admin/forms/album-option-form.php:23 admin/forms/album-option-form.php:37
-#: admin/forms/album-option-form.php:52 admin/forms/common-option-form.php:8
-#: admin/forms/gallery-option-form.php:22
-#: admin/forms/gallery-option-form.php:36
-#: admin/forms/gallery-option-form.php:51
+#: admin/forms/album-option-form.php:24 admin/forms/album-option-form.php:38
+#: admin/forms/album-option-form.php:54 admin/forms/common-option-form.php:40
+#: admin/forms/gallery-option-form.php:23
+#: admin/forms/gallery-option-form.php:37
+#: admin/forms/gallery-option-form.php:53
 msgid ""
 "FB App setup and Token Seem Valid. Renew the token every month for regular "
 "sync."
 msgstr ""
 
-#: admin/forms/album-option-form.php:25 admin/forms/gallery-option-form.php:24
+#: admin/forms/album-option-form.php:26 admin/forms/gallery-option-form.php:25
 msgid ""
 "App ID and Secret seems Valid but User Access Token is invalid/expired. "
 "Check the Common Options page"
 msgstr ""
 
-#: admin/forms/album-option-form.php:28 admin/forms/gallery-option-form.php:27
+#: admin/forms/album-option-form.php:29 admin/forms/gallery-option-form.php:28
 msgid ""
 "App ID and Secret seems Valid but User Access Token was not provided/"
 "invalid. Get a token in Common Options page."
 msgstr ""
 
-#: admin/forms/album-option-form.php:31 admin/forms/album-option-form.php:45
-#: admin/forms/album-option-form.php:60 admin/forms/common-option-form.php:16
-#: admin/forms/gallery-option-form.php:30
-#: admin/forms/gallery-option-form.php:44
-#: admin/forms/gallery-option-form.php:59
+#: admin/forms/album-option-form.php:32 admin/forms/album-option-form.php:46
+#: admin/forms/album-option-form.php:62 admin/forms/common-option-form.php:48
+#: admin/forms/gallery-option-form.php:31
+#: admin/forms/gallery-option-form.php:45
+#: admin/forms/gallery-option-form.php:61
 msgid ""
 "Can't get valid data from facebook. Either App ID/Secret is wrong or your "
 "server has connectivity problem"
 msgstr ""
 
-#: admin/forms/album-option-form.php:39 admin/forms/gallery-option-form.php:38
+#: admin/forms/album-option-form.php:40 admin/forms/gallery-option-form.php:39
 msgid ""
 "App ID and Secret seems Valid but User Access Token is invalid/expired. "
 "Check App settings below"
 msgstr ""
 
-#: admin/forms/album-option-form.php:42 admin/forms/gallery-option-form.php:41
+#: admin/forms/album-option-form.php:43 admin/forms/gallery-option-form.php:42
 msgid ""
 "App ID and Secret seems Valid but User Access Token was not provided/"
 "invalid. Get a token under App Settings Below"
 msgstr ""
 
-#: admin/forms/album-option-form.php:54 admin/forms/common-option-form.php:10
-#: admin/forms/gallery-option-form.php:53
+#: admin/forms/album-option-form.php:56 admin/forms/common-option-form.php:42
+#: admin/forms/gallery-option-form.php:55
 msgid ""
 "App ID and Secret seems Valid but User Access Token is invalid/expired. The "
 "app will only be able to work with public/unrestricted &quot;FB Pages&quot;. "
 "Get a token and give the app more power."
 msgstr ""
 
-#: admin/forms/album-option-form.php:57 admin/forms/common-option-form.php:13
-#: admin/forms/gallery-option-form.php:56
+#: admin/forms/album-option-form.php:59 admin/forms/common-option-form.php:45
+#: admin/forms/gallery-option-form.php:58
 msgid ""
 "App ID and Secret seems Valid but User Access Token was not provided/"
 "invalid. The app will only be able to work with public/unrestricted &quot;FB "
 "Pages&quot;. Get a token and give the app more power."
 msgstr ""
 
-#: admin/forms/album-option-form.php:68
+#: admin/forms/album-option-form.php:70
 msgid "Album Source"
 msgstr ""
 
-#: admin/forms/album-option-form.php:73 admin/forms/gallery-option-form.php:72
+#: admin/forms/album-option-form.php:75 admin/forms/gallery-option-form.php:74
 msgid "Source Type"
 msgstr ""
 
-#: admin/forms/album-option-form.php:77 admin/forms/gallery-option-form.php:76
+#: admin/forms/album-option-form.php:79 admin/forms/gallery-option-form.php:78
 msgid "A Facebook Page"
 msgstr ""
 
-#: admin/forms/album-option-form.php:78
+#: admin/forms/album-option-form.php:80
 msgid "(App ID/secret will be used from"
 msgstr ""
 
-#: admin/forms/album-option-form.php:80 admin/forms/album-option-form.php:95
-#: admin/forms/gallery-option-form.php:79
-#: admin/forms/gallery-option-form.php:94
+#: admin/forms/album-option-form.php:82 admin/forms/album-option-form.php:97
+#: admin/forms/gallery-option-form.php:81
+#: admin/forms/gallery-option-form.php:96
 msgid "Common Settings"
 msgstr ""
 
-#: admin/forms/album-option-form.php:83 admin/forms/gallery-option-form.php:82
+#: admin/forms/album-option-form.php:85 admin/forms/gallery-option-form.php:84
 msgid "My Facebook Profile"
 msgstr ""
 
-#: admin/forms/album-option-form.php:84 admin/forms/gallery-option-form.php:83
+#: admin/forms/album-option-form.php:86 admin/forms/gallery-option-form.php:85
 msgid ""
 "My = The person who authenticates the token on settings page or below (under "
 "New App settings)"
 msgstr ""
 
-#: admin/forms/album-option-form.php:88 admin/forms/gallery-option-form.php:87
+#: admin/forms/album-option-form.php:90 admin/forms/gallery-option-form.php:89
 msgid "App settings"
 msgstr ""
 
-#: admin/forms/album-option-form.php:89 admin/forms/gallery-option-form.php:88
+#: admin/forms/album-option-form.php:91 admin/forms/gallery-option-form.php:90
 msgid "(ID/Secret/Token)"
 msgstr ""
 
-#: admin/forms/album-option-form.php:94
+#: admin/forms/album-option-form.php:96
 msgid "Use from"
 msgstr ""
 
-#: admin/forms/album-option-form.php:96 admin/forms/gallery-option-form.php:95
+#: admin/forms/album-option-form.php:98 admin/forms/gallery-option-form.php:97
 msgid "Make sure you generated a User Access Token"
 msgstr ""
 
-#: admin/forms/album-option-form.php:99 admin/forms/gallery-option-form.php:98
+#: admin/forms/album-option-form.php:101
+#: admin/forms/gallery-option-form.php:100
 msgid "New App settings"
 msgstr ""
 
-#: admin/forms/album-option-form.php:104 admin/forms/common-option-form.php:71
-#: admin/forms/gallery-option-form.php:103
+#: admin/forms/album-option-form.php:106 admin/forms/common-option-form.php:104
+#: admin/forms/gallery-option-form.php:105
 msgid "App ID"
 msgstr ""
 
-#: admin/forms/album-option-form.php:110
-#: admin/forms/gallery-option-form.php:109
+#: admin/forms/album-option-form.php:112
+#: admin/forms/gallery-option-form.php:111
 msgid ""
 "Enter your App ID. FB App should be set-up properly with the domain of this "
 "website."
 msgstr ""
 
-#: admin/forms/album-option-form.php:112 admin/forms/album-option-form.php:127
-#: admin/forms/album-option-form.php:147 admin/forms/common-option-form.php:80
-#: admin/forms/common-option-form.php:95 admin/forms/common-option-form.php:113
-#: admin/forms/gallery-option-form.php:111
-#: admin/forms/gallery-option-form.php:126
-#: admin/forms/gallery-option-form.php:144
+#: admin/forms/album-option-form.php:114 admin/forms/album-option-form.php:129
+#: admin/forms/album-option-form.php:149 admin/forms/common-option-form.php:113
+#: admin/forms/common-option-form.php:128
+#: admin/forms/common-option-form.php:146
+#: admin/forms/gallery-option-form.php:113
+#: admin/forms/gallery-option-form.php:128
+#: admin/forms/gallery-option-form.php:146
 msgid "How-to video"
 msgstr ""
 
-#: admin/forms/album-option-form.php:118 admin/forms/common-option-form.php:86
-#: admin/forms/gallery-option-form.php:117
+#: admin/forms/album-option-form.php:120 admin/forms/common-option-form.php:119
+#: admin/forms/gallery-option-form.php:119
 msgid "App Secret"
 msgstr ""
 
-#: admin/forms/album-option-form.php:124
-#: admin/forms/gallery-option-form.php:123
+#: admin/forms/album-option-form.php:126
+#: admin/forms/gallery-option-form.php:125
 msgid ""
 "Enter your App Secret. FB App should be set-up properly with the domain of "
 "this website."
 msgstr ""
 
-#: admin/forms/album-option-form.php:135 admin/forms/common-option-form.php:101
-#: admin/forms/gallery-option-form.php:132
+#: admin/forms/album-option-form.php:137 admin/forms/common-option-form.php:134
+#: admin/forms/gallery-option-form.php:134
 msgid "User Access Token"
 msgstr ""
 
-#: admin/forms/album-option-form.php:136 admin/forms/common-option-form.php:102
-#: admin/forms/gallery-option-form.php:133
+#: admin/forms/album-option-form.php:138 admin/forms/common-option-form.php:135
+#: admin/forms/gallery-option-form.php:135
 msgid "(Renew every month)"
 msgstr ""
 
-#: admin/forms/album-option-form.php:140 admin/forms/common-option-form.php:106
-#: admin/forms/gallery-option-form.php:137
+#: admin/forms/album-option-form.php:142 admin/forms/common-option-form.php:139
+#: admin/forms/gallery-option-form.php:139
 msgid "Loading FB Scripts..."
 msgstr ""
 
-#: admin/forms/album-option-form.php:145 admin/forms/common-option-form.php:111
-#: admin/forms/gallery-option-form.php:142
+#: admin/forms/album-option-form.php:147 admin/forms/common-option-form.php:144
+#: admin/forms/gallery-option-form.php:144
 msgid ""
 "In order to get user access token your FB App should be set-up properly with "
 "the domain of this website. Default App ID and Secret will not work as they "
 "are not set-up for your domain. Create your own app for your domain."
 msgstr ""
 
-#: admin/forms/album-option-form.php:151
+#: admin/forms/album-option-form.php:153
 msgid "Album ID(s)"
 msgstr ""
 
-#: admin/forms/album-option-form.php:156
-#: admin/forms/gallery-option-form.php:190
+#: admin/forms/album-option-form.php:158
 msgid "If the album link(URL) is"
 msgstr ""
 
-#: admin/forms/album-option-form.php:160
-#: admin/forms/gallery-option-form.php:156
-#: admin/forms/gallery-option-form.php:193
+#: admin/forms/album-option-form.php:162
+#: admin/forms/gallery-option-form.php:158
 msgid "then the ID is"
 msgstr ""
 
-#: admin/forms/album-option-form.php:161
+#: admin/forms/album-option-form.php:163
 msgid "which should be put in this field"
 msgstr ""
 
-#: admin/forms/album-option-form.php:164
+#: admin/forms/album-option-form.php:166
 msgid ""
 "Separate multiple IDs with newline or whitespace (They will be merged into a "
 "single album)"
 msgstr ""
 
-#: admin/forms/album-option-form.php:166 admin/srizon-fb-album-back.php:73
+#: admin/forms/album-option-form.php:168 admin/srizon-fb-album-back.php:73
 msgid "For showing multiple album with different cover photo, add a"
 msgstr ""
 
-#: admin/forms/album-option-form.php:168 admin/srizon-fb-album-back.php:73
+#: admin/forms/album-option-form.php:170 admin/srizon-fb-album-back.php:73
 msgid "Gallery"
 msgstr ""
 
-#: admin/forms/album-option-form.php:169 admin/srizon-fb-album-back.php:73
+#: admin/forms/album-option-form.php:171 admin/srizon-fb-album-back.php:73
 msgid "instead"
 msgstr ""
 
-#: admin/forms/album-option-form.php:179
-#: admin/forms/gallery-option-form.php:220
+#: admin/forms/album-option-form.php:181
+#: admin/forms/gallery-option-form.php:188
 msgid "Layout Related"
 msgstr ""
 
-#: admin/forms/album-option-form.php:186
+#: admin/forms/album-option-form.php:188
 msgid "Layout"
 msgstr ""
 
-#: admin/forms/album-option-form.php:192
+#: admin/forms/album-option-form.php:194
 msgid "1. Collage - Thumb"
 msgstr ""
 
-#: admin/forms/album-option-form.php:196
+#: admin/forms/album-option-form.php:198
 msgid "2. Collage - Full"
 msgstr ""
 
-#: admin/forms/album-option-form.php:200
+#: admin/forms/album-option-form.php:202
 msgid "3. Slider - Lightbox"
 msgstr ""
 
-#: admin/forms/album-option-form.php:204
+#: admin/forms/album-option-form.php:206
 msgid "4. Slider - Image Above"
 msgstr ""
 
-#: admin/forms/album-option-form.php:208
+#: admin/forms/album-option-form.php:210
 msgid "5. Slider - Image Below"
 msgstr ""
 
-#: admin/forms/album-option-form.php:212
+#: admin/forms/album-option-form.php:214
 msgid "6. Single Image"
 msgstr ""
 
-#: admin/forms/album-option-form.php:216
+#: admin/forms/album-option-form.php:218
 msgid "7. Image Card"
 msgstr ""
 
-#: admin/forms/album-option-form.php:225
-#: admin/forms/gallery-option-form.php:226
+#: admin/forms/album-option-form.php:227
+#: admin/forms/gallery-option-form.php:194
 msgid "Target Thumb Height"
 msgstr ""
 
-#: admin/forms/album-option-form.php:232
+#: admin/forms/album-option-form.php:234
 msgid "This may not be the exact height but closer to this"
 msgstr ""
 
-#: admin/forms/album-option-form.php:237
-#: admin/forms/gallery-option-form.php:239
+#: admin/forms/album-option-form.php:239
+#: admin/forms/gallery-option-form.php:207
 msgid "Collage - Padding"
 msgstr ""
 
-#: admin/forms/album-option-form.php:244
+#: admin/forms/album-option-form.php:246
 msgid "Padding size around each image"
 msgstr ""
 
-#: admin/forms/album-option-form.php:250
-#: admin/forms/gallery-option-form.php:251
+#: admin/forms/album-option-form.php:252
+#: admin/forms/gallery-option-form.php:219
 msgid "Collage - Fill Last Row"
 msgstr ""
 
-#: admin/forms/album-option-form.php:259 admin/forms/album-option-form.php:285
-#: admin/forms/album-option-form.php:330 admin/forms/common-option-form.php:53
-#: admin/forms/gallery-option-form.php:260
-#: admin/forms/gallery-option-form.php:310
-#: admin/forms/gallery-option-form.php:354
-#: admin/forms/gallery-option-form.php:373
+#: admin/forms/album-option-form.php:261 admin/forms/album-option-form.php:296
+#: admin/forms/common-option-form.php:85
+#: admin/forms/gallery-option-form.php:228
+#: admin/forms/gallery-option-form.php:278
+#: admin/forms/gallery-option-form.php:322
+#: admin/forms/gallery-option-form.php:341
 msgid "No"
 msgstr ""
 
-#: admin/forms/album-option-form.php:263 admin/forms/album-option-form.php:281
-#: admin/forms/album-option-form.php:326 admin/forms/common-option-form.php:56
-#: admin/forms/gallery-option-form.php:264
-#: admin/forms/gallery-option-form.php:306
-#: admin/forms/gallery-option-form.php:350
-#: admin/forms/gallery-option-form.php:369
+#: admin/forms/album-option-form.php:265 admin/forms/album-option-form.php:292
+#: admin/forms/common-option-form.php:89
+#: admin/forms/gallery-option-form.php:232
+#: admin/forms/gallery-option-form.php:274
+#: admin/forms/gallery-option-form.php:318
+#: admin/forms/gallery-option-form.php:337
 msgid "Yes"
 msgstr ""
 
-#: admin/forms/album-option-form.php:267
+#: admin/forms/album-option-form.php:269
 msgid "Stretch the image of the last row to fill the space"
 msgstr ""
 
-#: admin/forms/album-option-form.php:274
+#: admin/forms/album-option-form.php:276
 msgid "Mouse-over Caption"
 msgstr ""
 
@@ -338,29 +338,29 @@ msgstr ""
 msgid "Animate Thumb on Hover"
 msgstr ""
 
-#: admin/forms/album-option-form.php:340
+#: admin/forms/album-option-form.php:306
 msgid "Animation Time in MilliSecs"
 msgstr ""
 
-#: admin/forms/album-option-form.php:353
+#: admin/forms/album-option-form.php:319
 msgid "AutoSlide Interval in Seconds."
 msgstr ""
 
-#: admin/forms/album-option-form.php:361
+#: admin/forms/album-option-form.php:327
 msgid "Put 0 for disabling autoSlide"
 msgstr ""
 
-#: admin/forms/album-option-form.php:367
+#: admin/forms/album-option-form.php:333
 msgid "Maximum height of the full image"
 msgstr ""
 
-#: admin/forms/album-option-form.php:379
-#: admin/forms/gallery-option-form.php:384
+#: admin/forms/album-option-form.php:345
+#: admin/forms/gallery-option-form.php:352
 msgid "Options"
 msgstr ""
 
-#: admin/forms/album-option-form.php:385
-#: admin/forms/gallery-option-form.php:390
+#: admin/forms/album-option-form.php:351
+#: admin/forms/gallery-option-form.php:358
 msgid "Sync After Every # minutes"
 msgstr ""
 
@@ -821,6 +821,26 @@ msgstr ""
 msgid "Response from Facebook:"
 msgstr ""
 
+#: lib/srizon_functions.php:90
+msgid "Timeline Photos"
+msgstr ""
+
+#: lib/srizon_functions.php:92
+msgid "Cover Photos"
+msgstr ""
+
+#: lib/srizon_functions.php:94
+msgid "Untitled Album"
+msgstr ""
+
+#: lib/srizon_functions.php:96
+msgid "Mobile Uploads"
+msgstr ""
+
+#: lib/srizon_functions.php:98
+msgid "Profile Pictures"
+msgstr ""
+
 #: lib/srizon_pagination.php:34 lib/srizon_pagination.php:36
 #: lib/srizon_pagination.php:88 lib/srizon_pagination.php:90
 msgid "Prev"
@@ -843,8 +863,12 @@ msgstr ""
 msgid "Invalid shortcode... ID missing"
 msgstr ""
 
-#: site/srizon-fb-gallery-front.php:10
+#: site/srizon-fb-gallery-front.php:9
 msgid "Page Not Found"
+msgstr ""
+
+#: tmpl/gallery.php:15
+msgid "[Back To Gallery]"
 msgstr ""
 
 #: tmpl/gallery.php:34

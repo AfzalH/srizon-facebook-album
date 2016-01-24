@@ -3,12 +3,17 @@
 Plugin Name: Srizon Facebook Album
 Plugin URI: http://www.srizon.com/srizon-facebook-album
 Description: Show your Facebook Albums/Galleries on your WordPress Site
-Version: 3.1
+Text Domain: srizon-facebook-album
+Domain Path: /languages
+Version: 3.1.1
 Author: Afzal
 Author URI: http://www.srizon.com/contact
 */
 
-load_plugin_textdomain('srizon-facebook-album', false, basename( dirname( __FILE__ ) ) . '/languages' );
+function srizon_fb_album_load_textdomain() {
+	load_plugin_textdomain( 'srizon-facebook-album', FALSE, basename( dirname( __FILE__ ) ) . '/languages/' );
+}
+add_action( 'plugins_loaded', 'srizon_fb_album_load_textdomain' );
 
 // libraries
 require_once 'lib/srizon_functions.php';

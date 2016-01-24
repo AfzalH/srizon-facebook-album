@@ -1,5 +1,5 @@
 .idea
-cache/jfbalbum/*
-cache/jfbalbumbackup/*
-!cache/jfbalbum/index.html
-!cache/jfbalbumbackup/index.html
+cache/fbalbum/*
+cache/fbalbumbackup/*
+!cache/fbalbum/index.html
+!cache/fbalbumbackup/index.html
