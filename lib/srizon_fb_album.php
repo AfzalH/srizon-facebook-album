@@ -160,8 +160,10 @@ if ( ! class_exists( 'SrizonFbAlbum' ) ) {
 		}
 
 		protected function read_cache( $id ) {
-			$filename        = JPATH_CACHE . '/fbalbum/' . md5( $id );
-			$filename_backup = JPATH_CACHE . '/fbalbumbackup/' . md5( $id );
+			global $wpdb;
+			$cachekey = $wpdb->prefix.'multi'.$id;
+			$filename        = JPATH_CACHE . '/fbalbum/' . md5( $cachekey );
+			$filename_backup = JPATH_CACHE . '/fbalbumbackup/' . md5( $cachekey );
 			if ( is_file( $filename ) ) {
 				$data         = file_get_contents( $filename );
 				$this->images = json_decode( $data, true );
@@ -172,6 +174,8 @@ if ( ! class_exists( 'SrizonFbAlbum' ) ) {
 		}
 
 		protected function cache_it( $id ) {
+			global $wpdb;
+			$cachekey = $wpdb->prefix.'multi'.$id;
 			if ( ! count( $this->images ) ) {
 				return;
 			}
@@ -188,8 +192,8 @@ if ( ! class_exists( 'SrizonFbAlbum' ) ) {
 			if ( ! is_writable( JPATH_CACHE . '/fbalbum' ) ) {
 				$this->set_debug_message( 'Cache folder is not writable' );
 			}
-			$filename        = JPATH_CACHE . '/fbalbum/' . md5( $id );
-			$filename_backup = JPATH_CACHE . '/fbalbumbackup/' . md5( $id );
+			$filename        = JPATH_CACHE . '/fbalbum/' . md5( $cachekey );
+			$filename_backup = JPATH_CACHE . '/fbalbumbackup/' . md5( $cachekey );
 			$data            = json_encode( $this->images );
 			file_put_contents( $filename, $data );
 			file_put_contents( $filename_backup, $data ); // keep a backup
@@ -369,10 +373,12 @@ if ( ! class_exists( 'SrizonFbAlbum' ) ) {
 		}
 
 		protected function sync_required( $album_id ) {
+			global $wpdb;
+			$cachekey = $wpdb->prefix.'multi'.$album_id;
 			if ( $this->force_sync ) {
 				return true;
 			}
-			$filename = JPATH_CACHE . '/fbalbum/' . md5( $album_id );
+			$filename = JPATH_CACHE . '/fbalbum/' . md5( $cachekey );
 			if ( is_file( $filename ) ) {
 				$utime  = filemtime( $filename );
 				$chtime = time() - $this->sync_interval;
