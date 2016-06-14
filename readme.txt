@@ -37,11 +37,13 @@ You can also include/exclude albums in gallery view in pro version
 == Frequently asked questions ==
 
 = Albums are showing blank images (image box without image) =
-Probably because of JetPack's photon module. Disable 'photon' from Jetpcak
+Probably because of JetPack's photon module. Disable 'photon' from JetPack
 
 == Changelog ==
 = 3.2 =
-* Some language text can be overridden from admin panel directly (credit: Lex Marion)
+* Multisite support
+* Some language text (Album:, [Back to Gallery]) can be overridden from admin panel directly (credit: Lex Marion)
+* Fixed a bug that was showing backslash before single and double quote submitted by different forms
 
 = 3.1 =
 * Personal Facebook Profiles & Restricted Facebook Pages are now supported (you need authenticate the app for this)
