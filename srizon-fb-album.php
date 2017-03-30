@@ -5,7 +5,7 @@ Plugin URI: http://www.srizon.com/srizon-facebook-album
 Description: Show your Facebook Albums/Galleries on your WordPress Site
 Text Domain: srizon-facebook-album
 Domain Path: /languages
-Version: 3.2
+Version: 3.3
 Author: Afzal
 Author URI: http://www.srizon.com/contact
 */

@@ -222,7 +222,7 @@ if ( ! class_exists( 'SrizonFbAlbum' ) ) {
 				if(isset($response['body'])){
 					$json = json_decode($response['body'],true);
 					if(isset($json['error'])){
-						echo "<div class=\"error\"><h2>" . __( "Response from Facebook:" ). $json['error']['message'] . "</h2></div>";
+						echo "<div class=\"error\"><h2>" . __( "Response from Facebook: " ). $json['error']['message'] . "</h2></div>";
 					}
 				}
 				return false;
@@ -239,9 +239,9 @@ if ( ! class_exists( 'SrizonFbAlbum' ) ) {
 			if ( $response['response']['code'] != 200 ) {
 				if(isset($response['body'])){
 					$json = json_decode($response['body'],true);
-					if(isset($json['error'])){
-						echo "<div class=\"error\"><h2>" . __( "Response from Facebook:" ). $json['error']['message'] . "</h2></div>";
-					}
+//					if(isset($json['error'])){
+//						echo "<div class=\"error\"><h2>" . __( "Response from Facebook: " ). $json['error']['message'] . "</h2></div>";
+//					}
 				}
 				return false;
 			} else {
@@ -251,21 +251,25 @@ if ( ! class_exists( 'SrizonFbAlbum' ) ) {
 		}
 
 		public function get_long_lived_token( $id, $secret, $token ) {
-			$url      = "https://graph.facebook.com/oauth/access_token?client_id={$id}&client_secret={$secret}&grant_type=fb_exchange_token&fb_exchange_token={$token}";
-			$response = wp_remote_get( $url, array( 'timeout' => 30 ) );
-			if ( is_wp_error( $response ) ) {
-				$this->set_debug_message( 'Getting long lived token failed', $response->get_error_message() );
-
-				return false;
-			} else {
-				return $this->decode_long_lived_token( $response['body'] );
-			}
+            $url = "https://graph.facebook.com/oauth/access_token?client_id={$id}&client_secret={$secret}&grant_type=fb_exchange_token&fb_exchange_token={$token}";
+            $response = wp_remote_get($url, array('timeout' => 30));
+            if (is_wp_error($response)) {
+                $this->set_debug_message('Getting long lived token failed', $response->get_error_message());
+                return false;
+            } else {
+                if (trim($this->decode_long_lived_token($response['body']))) {
+                    return $this->decode_long_lived_token($response['body']);
+                }
+                $json_obj = json_decode($response['body']);
+                return $json_obj->access_token;
+            }
 		}
 
 		protected function decode_long_lived_token( $text ) {
 			parse_str( $text, $ar );
 
-			return ( $ar['access_token'] );
+			if(isset($ar['access_token'])) return ( $ar['access_token'] );
+			return '';
 		}
 
 		protected function get_remote_gallery( $pageid ) {
