@@ -38,7 +38,7 @@ class SrizonFBDB {
 				$optvar['srzfbappsecret'] = '8ff4bfcdf06ae146809cba0bb5c91080';
 			}
 			if ( ! isset( $optvar['longtoken'] ) ) {
-				$optvar['longtoken'] = '137232439715277|8ff4bfcdf06ae146809cba0bb5c91080';
+				$optvar['longtoken'] = $optvar['srzfbappid'] . '|' . $optvar['srzfbappsecret'];
 			}
 
 			return $optvar;
